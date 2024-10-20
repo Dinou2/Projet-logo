@@ -1,0 +1,12 @@
+<div class="conatiner">
+    <h2>Les créateur de logo</h2>
+    <button (click)="afficheNew()"> {{newVariable ? 'Nouveau +' : 'Nouveau -'}}</button>
+    <div class="row row-cols-1 row-cols-md-3" *ngIf="logoListe && logoListe.length > 0">
+       <div class="col" *ngFor="let singleLogo of logoListe">
+            <img src="{{singleLogo.img}}" alt="">
+            <h4> <span *ngIf="newVariable">News</span> {{singleLogo.nom}}</h4>
+            <div><p>{{singleLogo.descrp}}</p></div>
+        </div>
+    </div>
+
+</div>

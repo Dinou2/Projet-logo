@@ -1,0 +1,28 @@
+*{
+    text-transform: uppercase;
+}
+
+.col{
+    background-color: rgb(204, 150, 255);
+    width: 20%;
+    padding: 15px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+}
+
+button{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
